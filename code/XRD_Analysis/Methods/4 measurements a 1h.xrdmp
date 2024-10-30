@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<MProg:measurementProgramFile xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:HWSettings="http://www.Panalytical.com/HWSettings/1.3" xmlns:MProg="http://www.Panalytical.com/MeasurementProgram/1.3" xmlns:axes="http://www.xrdml.com/Axes13.xsd" xmlns:xrxtypes="http://www.xrdml.com/XRX/DataTypes" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+	<MProg:metadata>
+		<xrxtypes:title>4 measurements a 1h</xrxtypes:title>
+		<xrxtypes:description />
+		<xrxtypes:identifier>{FC530142-94CA-4D57-8DB1-BDDCCF95DB9E}</xrxtypes:identifier>
+		<xrxtypes:created>
+			<xrxtypes:creator>User-1</xrxtypes:creator>
+			<xrxtypes:creatorID>User-1</xrxtypes:creatorID>
+			<xrxtypes:date>2024-10-01T10:38:32+02:00</xrxtypes:date>
+		</xrxtypes:created>
+		<xrxtypes:modified>
+			<xrxtypes:creator>User-1</xrxtypes:creator>
+			<xrxtypes:creatorID>User-1</xrxtypes:creatorID>
+			<xrxtypes:date>2024-10-01T10:38:32+02:00</xrxtypes:date>
+		</xrxtypes:modified>
+		<xrxtypes:category name="Measurement type">Sample (changer) batch</xrxtypes:category>
+	</MProg:metadata>
+	<MProg:program xs:type="MProg:batchProgramType" configurationName="Reflection-transmission spinner" intention="Sample changer">
+		<MProg:batchFileNameSettings>
+			<MProg:includeItemNo>false</MProg:includeItemNo>
+			<MProg:includeCycleIndicator>false</MProg:includeCycleIndicator>
+			<MProg:includeStartDate>false</MProg:includeStartDate>
+			<MProg:includeTemperature>false</MProg:includeTemperature>
+			<MProg:includeSampleID>true</MProg:includeSampleID>
+			<MProg:generateUniqueFileNames>true</MProg:generateUniqueFileNames>
+			<MProg:generateFolder>true</MProg:generateFolder>
+			<MProg:fileNameSettings />
+		</MProg:batchFileNameSettings>
+		<MProg:step xs:type="MProg:batchStepGroupType">
+			<MProg:steps xs:type="MProg:batchStepMeasurementProgramType">
+				<MProg:originalProgram>C:\PANalytical\Data Collector\Programs\5-90_step0_016_1h.xrdmp</MProg:originalProgram>
+				<MProg:originalProgramIdentifier>{2E2D6A98-D769-4EF1-9FDC-EC2A16BC0696}</MProg:originalProgramIdentifier>
+				<MProg:fileNameSettings>
+					<MProg:folderName>C:\XRD Data\Alex Oing\Students\Jakob\Zeolites</MProg:folderName>
+					<MProg:prefix>20241001</MProg:prefix>
+					<MProg:suffix />
+				</MProg:fileNameSettings>
+				<MProg:sampleInformation>
+					<MProg:sampleID>SAPO-14-1_AP</MProg:sampleID>
+					<MProg:sampleName />
+					<MProg:samplePreparedBy />
+				</MProg:sampleInformation>
+			</MProg:steps>
+			<MProg:steps xs:type="MProg:batchStepChangerType" mode="Set position">
+				<MProg:position>1</MProg:position>
+			</MProg:steps>
+		</MProg:step>
+		<MProg:step xs:type="MProg:batchStepGroupType">
+			<MProg:steps xs:type="MProg:batchStepMeasurementProgramType">
+				<MProg:originalProgram>C:\PANalytical\Data Collector\Programs\5-90_step0_016_1h.xrdmp</MProg:originalProgram>
+				<MProg:originalProgramIdentifier>{2E2D6A98-D769-4EF1-9FDC-EC2A16BC0696}</MProg:originalProgramIdentifier>
+				<MProg:fileNameSettings>
+					<MProg:folderName>C:\XRD Data\Alex Oing\Students\Jakob\Zeolites</MProg:folderName>
+					<MProg:prefix>20241001</MProg:prefix>
+					<MProg:suffix />
+				</MProg:fileNameSettings>
+				<MProg:sampleInformation>
+					<MProg:sampleID>SAPO-14-2-AP</MProg:sampleID>
+					<MProg:sampleName />
+					<MProg:samplePreparedBy />
+				</MProg:sampleInformation>
+			</MProg:steps>
+			<MProg:steps xs:type="MProg:batchStepChangerType" mode="Set position">
+				<MProg:position>2</MProg:position>
+			</MProg:steps>
+		</MProg:step>
+		<MProg:step xs:type="MProg:batchStepGroupType">
+			<MProg:steps xs:type="MProg:batchStepMeasurementProgramType">
+				<MProg:originalProgram>C:\PANalytical\Data Collector\Programs\5-90_step0_016_1h.xrdmp</MProg:originalProgram>
+				<MProg:originalProgramIdentifier>{2E2D6A98-D769-4EF1-9FDC-EC2A16BC0696}</MProg:originalProgramIdentifier>
+				<MProg:fileNameSettings>
+					<MProg:folderName>C:\XRD Data\Alex Oing\Students\Jakob\Zeolites</MProg:folderName>
+					<MProg:prefix>20241001</MProg:prefix>
+					<MProg:suffix />
+				</MProg:fileNameSettings>
+				<MProg:sampleInformation>
+					<MProg:sampleID>SAPO-14-1-CA</MProg:sampleID>
+					<MProg:sampleName />
+					<MProg:samplePreparedBy />
+				</MProg:sampleInformation>
+			</MProg:steps>
+			<MProg:steps xs:type="MProg:batchStepChangerType" mode="Set position">
+				<MProg:position>3</MProg:position>
+			</MProg:steps>
+		</MProg:step>
+		<MProg:step xs:type="MProg:batchStepGroupType">
+			<MProg:steps xs:type="MProg:batchStepMeasurementProgramType">
+				<MProg:originalProgram>C:\PANalytical\Data Collector\Programs\5-90_step0_016_1h.xrdmp</MProg:originalProgram>
+				<MProg:originalProgramIdentifier>{2E2D6A98-D769-4EF1-9FDC-EC2A16BC0696}</MProg:originalProgramIdentifier>
+				<MProg:fileNameSettings>
+					<MProg:folderName>C:\XRD Data\Alex Oing\Students\Jakob\Zeolites</MProg:folderName>
+					<MProg:prefix>20241001</MProg:prefix>
+					<MProg:suffix />
+				</MProg:fileNameSettings>
+				<MProg:sampleInformation>
+					<MProg:sampleID>SAPO-14-2-CA</MProg:sampleID>
+					<MProg:sampleName />
+					<MProg:samplePreparedBy />
+				</MProg:sampleInformation>
+			</MProg:steps>
+			<MProg:steps xs:type="MProg:batchStepChangerType" mode="Set position">
+				<MProg:position>4</MProg:position>
+			</MProg:steps>
+		</MProg:step>
+		<MProg:step xs:type="MProg:batchStepGroupType" cycles="1">
+			<MProg:steps xs:type="MProg:batchStepXrayType" mode="Switch on">
+				<MProg:tension xs:type="HWSettings:tensionType" unit="kV">45</MProg:tension>
+				<MProg:current xs:type="HWSettings:currentType" unit="mA">20</MProg:current>
+			</MProg:steps>
+		</MProg:step>
+	</MProg:program>
+	<MProg:history>
+		<xrxtypes:historyItem>
+			<xrxtypes:created>
+				<xrxtypes:creator>User-1</xrxtypes:creator>
+				<xrxtypes:creatorID>User-1</xrxtypes:creatorID>
+				<xrxtypes:date>2024-10-01T10:38:32+02:00</xrxtypes:date>
+			</xrxtypes:created>
+			<xrxtypes:identifier>{FC530142-94CA-4D57-8DB1-BDDCCF95DB9E}</xrxtypes:identifier>
+			<xrxtypes:softwarePackage>Data Collector</xrxtypes:softwarePackage>
+			<xrxtypes:softwareVersion>5.4</xrxtypes:softwareVersion>
+			<xrxtypes:action description="Created" />
+		</xrxtypes:historyItem>
+	</MProg:history>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cXnuN3OB9BrRpl0TKvppyKSWKJs=</DigestValue></Reference></SignedInfo><SignatureValue>NUrbOOcTZZLUCpZ538PndZvM4Tz6uEtu8nj6oUAwIy3JyVxpTqe2ks6ziLDJZ73GOloW19A0vTjZkeIQGhrG/Y0fdVlQifyb+smz+CEkGOUD4Y76tefHYaYU/ZRy13e9IERqoQobFN2Wt/My8S2MyfkIWej6bVma7+ASz/AZuD8=</SignatureValue></Signature></MProg:measurementProgramFile>

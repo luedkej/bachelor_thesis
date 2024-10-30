@@ -1,0 +1,36 @@
+%!TEX root = ./main.tex
+\makenomenclature
+
+% Überschrift
+\renewcommand{\nomname}{Nomenclature}
+
+% Makro für Einheiten
+\newcommand{\nomunit}[1]{\renewcommand{\nomentryend}{\hfill $\left[ #1 \right]$} }
+
+% Nomenclaturabschnitte definieren
+\renewcommand{\nomgroup}[1]{%
+	\ifthenelse{\equal{#1}{S}}{\item[\textbf{Symbols}]}{%
+		\ifthenelse{\equal{#1}{A}}{\item[\textbf{Abbreviations}]} {
+		  \ifthenelse{\equal{#1}{I}}{\item[\textbf{Indices}]} {} } }	
+		 }
+
+% Einträge hinzufügen
+
+% Formelzeichen
+\nomenclature[S]{Symbol}{Beschreibung \nomunit{Einheit}}
+
+
+% Abkürzungen
+\nomenclature[A]{$DAE$}{Differential-algebraische Gleichung}%
+\nomenclature[A]{$spez.$}{spezifisch}%
+\nomenclature[A]{$i.A.$}{im Allgemeinen}%
+\nomenclature[A]{$z.B.$}{zum Beispiel}%
+
+% Indizes
+\nomenclature[I]{$Indize$}{Beschreibung}%
+
+
+\cleardoublepage% or \clearpage
+\markboth{\nomname}{\nomname}
+\printnomenclature
+

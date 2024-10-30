@@ -1,0 +1,46 @@
+%!TEX program = xelatex
+\documentclass[12pt]{avt-thesis}
+
+\iffalse ANMERKUNGEN
+
+- die Vorlage sollte mit XeLaTeX compiliert werden
+- die Formatierung kann in avt-thesis.cls editiert werden
+- die Titelseite kann in pages/RWTH/Titelseite frei angepasst werden
+- Referenzen im Bibtex Format können zb. über Google scholar gefunden und in literature.bib eingefügt werden
+
+\fi
+
+\graphicspath{{images/}}
+
+\addbibresource{Literatur.bib}
+
+\begin{document}
+
+    % Titlepage, table of contents, etc.
+    \frontmatter
+    \pagenumbering{Roman}  
+    \begin{titlepage}
+        \include{pages/titelseite}
+    \end{titlepage}
+    \include{pages/Abstract}
+    \include{pages/Erklaerung}
+    \include{pages/Danksagung}
+    \tableofcontents
+
+    % Thesis content
+    \mainmatter
+    \onehalfspacing
+    
+    \include{chapter/about_latex}
+
+
+    \include{nomenclature}
+
+    \nocite{*}
+    \printbibliography[heading=bibintoc]
+    \listoffigures
+    \listoftables
+    \appendix
+    \include{chapter/appendix}
+
+\end{document}
